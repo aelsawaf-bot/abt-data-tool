@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arabic Exams</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #1f2933;
+      background: #fafaf7;
+      line-height: 1.6;
+    }
+    header {
+      background: #14532d;
+      color: #fff;
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header h1 { margin: 0; font-size: 1.3rem; }
+    nav a { color: #fff; margin-left: 16px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    .hero {
+      text-align: center;
+      padding: 64px 20px;
+    }
+    .hero .ar { font-size: 3rem; margin: 0; color: #14532d; }
+    .hero p { max-width: 520px; margin: 12px auto 24px; }
+    .btn {
+      display: inline-block;
+      background: #14532d;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .btn:hover { background: #166534; }
+    .levels {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0 20px 48px;
+    }
+    .level {
+      width: 220px;
+      padding: 20px;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .level h3 { margin-top: 0; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #ddd;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
 
+  <header>
+    <h1>Arabic Exams</h1>
+    <nav>
+      <a href="#levels">Levels</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2 class="ar" dir="rtl" lang="ar">اختبارات اللغة العربية</h2>
+    <p>Practice reading, writing, grammar, and listening with Arabic exams for every level.</p>
+    <a class="btn" href="#levels">Start practicing</a>
+  </section>
+
+  <section class="levels" id="levels">
+    <div class="level">
+      <h3>Beginner</h3>
+      <p>Letters, basic words, and simple sentences.</p>
+    </div>
+    <div class="level">
+      <h3>Intermediate</h3>
+      <p>Grammar, vocabulary, and short reading texts.</p>
+    </div>
+    <div class="level">
+      <h3>Advanced</h3>
+      <p>Essays, literature, and full mock exams.</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p id="about">Free Arabic exam practice for students and learners.</p>
+    <p>Contact: info@example.com</p>
+  </footer>
+
+</body>
+</html>
